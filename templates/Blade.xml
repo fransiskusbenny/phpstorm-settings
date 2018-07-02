@@ -1,0 +1,8 @@
+<templateSet group="Blade">
+  <template name="@perm" value="@permission('$NAME$')&#10;&#10;@endpermission" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

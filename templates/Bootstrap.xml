@@ -1,0 +1,16 @@
+<templateSet group="Bootstrap">
+  <template name="fcs" value="&lt;!--$LABEL$--&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label class=&quot;col-md-4 control-label&quot;&gt;$LABEL$:&lt;/label&gt;&#10;    &lt;div class=&quot;col-md-8&quot;&gt;&#10;        &lt;p class=&quot;form-control-static&quot;&gt;&#10;            $TEXT$&#10;        &lt;/p&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bs4:plaintext" value="&lt;!--$LABEL$--&gt;&#10;&lt;div class=&quot;form-group row&quot;&gt;&#10;    &lt;label class=&quot;col-form-label col-sm-2&quot;&gt;&#10;        &lt;strong&gt;$LABEL$&lt;/strong&gt;&#10;    &lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        &lt;p class=&quot;form-control-plaintext&quot;&gt;&#10;           $VALUE$&#10;        &lt;/p&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

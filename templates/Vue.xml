@@ -1,0 +1,16 @@
+<templateSet group="Vue">
+  <template name="v::text" value="&lt;!--$LABEL$--&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label class=&quot;control-label col-sm-4&quot;&gt;&#10;        $LABEL$:&#10;    &lt;/label&gt;&#10;    &lt;div class=&quot;col-md-8&quot;&gt;&#10;        &lt;input type=&quot;text&quot; class=&quot;form-control&quot; v-model=&quot;$MODEL$&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="v::textarea" value="&lt;!--$LABEL$--&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label class=&quot;control-label col-sm-4&quot;&gt;&#10;        $LABEL$:&#10;    &lt;/label&gt;&#10;    &lt;div class=&quot;col-md-8&quot;&gt;&#10;        &lt;textarea rows=&quot;5&quot; class=&quot;form-control&quot; v-model=&quot;$MODEL$&quot;&gt;&lt;/textarea&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
